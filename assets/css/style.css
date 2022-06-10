@@ -39,7 +39,7 @@ body {
   font-family: "Varela", sans-serif;
   background-color: #196fc2;
   padding: 0 15px;
-  color: #ffffff;
+  color: black;
   height: 44px;
   line-height: 42px;
   border-radius: 0;
@@ -48,21 +48,21 @@ body {
 }
 
 .btn-inverted {
-  color: #ffffff;
+  color: black;
   background-color: transparent;
   border-color: #ffffff;
 }
 
 .btn:hover,
 .btn:focus {
-  color: #ffffff;
+  color: black;
   background-color: transparent;
   border-color: #ffffff;
 }
 
 .btn-inverted:hover,
 .btn-inverted:focus {
-  color: #ffffff;
+  color: black;
   background-color: #196fc2;
   border-color: #196fc2;
 }
@@ -661,8 +661,8 @@ body {
   position: relative;
   font-family: "Varela", sans-serif;
   margin: 15px 0 0;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 20px;
+  line-height: 24px;
   color: #666;
   letter-spacing: 2px;
   text-align: center;
@@ -2551,4 +2551,41 @@ textarea.form-control {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+
+
+.text1 {
+  color: white;
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  animation: text 3s 1;
+}
+
+
+@keyframes text {
+  0% {
+    color: black;
+    margin-bottom: -40px;
+  }
+
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+
+
+
+.gap {
+  margin-top: 10px;
+  line-height: 24px;
 }
